@@ -83,11 +83,12 @@ function get_rh_behavior_field_options() {
  */
 function get_admin_fields() {
 	return [
-		'rh_override' => [
+		// TODO: Allow the user to select the behavior of each post.
+		/*'rh_override' => [
 			'label' => 'Allow these settings to be overridden for individual posts of type',
 			'type' => 'checkbox',
 			'default' => '1'
-		],
+		],*/
 		'rh_behavior' => [
 			'label' => 'Behavior',
 			'type' => 'select',
